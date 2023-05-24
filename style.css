@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    text-align: center;
+}
+.box{
+    height: 500px;
+    width: 500px !important;
+    background-color: #c3bd9a75;
+    margin-left: 31%;
+    margin-top: 2%;
+    padding-top: 5px;
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.scoreboard .score{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.scoreboard #score {
+    margin-top: 70px;
+}
+.square{
+    flex: 1;
+    height: 100px;
+    width: 100px;
+}
+.scoreboard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+.name{
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 45px;
+}
+
